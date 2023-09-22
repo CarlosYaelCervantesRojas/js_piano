@@ -9,35 +9,38 @@
 
         <div id="piano">
 
+            <header>
+                <h2>JS Piano</h2>
+                <div class="volume">
+                    <span>Volume</span> <input type="range" min="0" max="1" value="0.5" step="any">
+                </div>
+                <div class="keys-checkbox">
+                    <span>Show Keys</span> <input type="checkbox" checked>
+                </div>
+            </header>
+
             <div class="keys">
                 <div class="black-keys">
-                    <div class="key black-key"></div>
-                    <div class="key black-key"></div>
-                    <div class="key black-key"></div>
-                    <div class="key black-key"></div>
-                    <div class="key black-key"></div>
-                    <div class="key black-key"></div>
-                    <div class="key black-key"></div>
-                    <div class="key black-key"></div>
-                    <div class="key black-key"></div>
-                    <div class="key black-key"></div>
+                    <div class="key black-key" data-key="w"><span>W</span></div>
+                    <div class="key black-key" data-key="e"><span>E</span></div>
+                    <div class="key black-key" data-key="t"><span>T</span></div>
+                    <div class="key black-key" data-key="y"><span>Y</span></div>
+                    <div class="key black-key" data-key="u"><span>U</span></div>
+                    <div class="key black-key" data-key="o"><span>O</span></div>
+                    <div class="key black-key" data-key="p"><span>P</span></div>
                 </div>
 
                 <div class="white-keys">
-                    <div class="key white-key"></div>
-                    <div class="key white-key"></div>
-                    <div class="key white-key"></div>
-                    <div class="key white-key"></div>
-                    <div class="key white-key"></div>
-                    <div class="key white-key"></div>
-                    <div class="key white-key"></div>
-                    <div class="key white-key"></div>
-                    <div class="key white-key"></div>
-                    <div class="key white-key"></div>
-                    <div class="key white-key"></div>
-                    <div class="key white-key"></div>
-                    <div class="key white-key"></div>
-                    <div class="key white-key"></div>
+                    <div class="key white-key" data-key="a"><span>A</span></div>
+                    <div class="key white-key" data-key="s"><span>S</span></div>
+                    <div class="key white-key" data-key="d"><span>D</span></div>
+                    <div class="key white-key" data-key="f"><span>F</span></div>
+                    <div class="key white-key" data-key="g"><span>G</span></div>
+                    <div class="key white-key" data-key="h"><span>H</span></div>
+                    <div class="key white-key" data-key="j"><span>J</span></div>
+                    <div class="key white-key" data-key="k"><span>K</span></div>
+                    <div class="key white-key" data-key="l"><span>L</span></div>
+                    <div class="key white-key" data-key="ñ"><span>Ñ</span></div>
                 </div>
             </div>
 
